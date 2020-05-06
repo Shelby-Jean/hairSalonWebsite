@@ -64,7 +64,7 @@
 
 /* footer section */
 .footer-container {
-  background-color: black;
+  background-color: #252524;
   color: white;
   height: 30px;
   text-align: center;
@@ -77,10 +77,6 @@
 @media (min-width: 768px) {
   .main-header {
     font-size: 50px;
-  }
-  .cards-container {
-    flex-direction: row;
-    justify-content: space-around;
   }
   .nav-container {
     text-align: center;
@@ -102,6 +98,10 @@
   }
   .menu-btn {
     display: none;
+  }
+  .cards-container {
+    flex-direction: row;
+    justify-content: space-around;
   }
 }
 
