@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* header section */
+.header-container {
+  padding: 15px 0;
+}
+
+.main-header {
+  font-family: 'Permanent Marker', cursive;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.menu-btn {
+  width: 25px;
+  padding: 10px;
+  display: block;
+  margin: 0px auto;
+}
+
+.nav-link {
+  display: none;
+}
+
+/* blog header section */
+.blog-header {
+  background-color: #252524;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 0 25px 20px 25px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* blog articles section */
+.blogs-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 320px;
+  margin-bottom: 15px;
+}
+
+.blog-container img {
+  width: 100%;
+}
+
+.blog-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.blog-container p {
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 14px;
+  margin: 20px;
+}
+
+.read-this {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #252524;
+  color: white;
+  padding: 10px;
+  margin: 10px 100px;
+}
+
+/* footer section */
+.footer-container {
+  background-color: #252524;
+  color: white;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 15px;
+}
+
+
+
+/* tablet */
+@media (min-width: 768px) {
+  .main-header {
+    font-size: 50px;
+  }
+  .nav-container {
+    text-align: center;
+    padding: 30px;
+  }
+  .nav-link {
+    display: inline;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+    padding: 10px;
+    margin: 20px;
+  }
+  .nav-link:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+  }
+  .menu-btn {
+    display: none;
+  }
+  .blog-header {
+    font-size: 25px;
+    margin: 0 300px 20px 300px;
+  }
+  .blogs-wrapper {
+    /* width: 700px; */
+  }
+  .blog-container {
+    flex-direction: row;
+    width: 400px;
+}
+
+/* laptop/desktop */
+@media (min-width: 1024px) {
+  .blog-header {
+    font-size: 30px;
+    margin: 0 400px 20px 400px;
+  }
+}

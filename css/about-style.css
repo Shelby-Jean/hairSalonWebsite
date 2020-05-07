@@ -117,7 +117,7 @@ article p {
 @media (min-width: 1024px) {
   .about-header {
     font-size: 30px;
-    margin: 0 250px 20px 250px;
+    margin: 0 400px 20px 400px;
   }
   .about-img {
     width: 750px
@@ -127,6 +127,6 @@ article p {
   }
   article p {
     font-size: 14px;
-    margin: 0 175px 0 175px;
+    margin: 0 350px 0 350px;
   }
 }

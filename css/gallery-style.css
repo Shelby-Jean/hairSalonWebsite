@@ -26,7 +26,7 @@
   display: none;
 }
 
-/* about header section */
+/* gallery header section */
 .gallery-header {
   background-color: #252524;
   color: white;
@@ -96,6 +96,7 @@
   }
   .img-container img {
     width: 200px;
+    max-width: 33.33%;
   }
 }
 

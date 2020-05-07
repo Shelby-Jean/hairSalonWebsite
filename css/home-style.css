@@ -99,16 +99,25 @@
   .menu-btn {
     display: none;
   }
+  .hero-container {
+    margin-bottom: 50px;
+  }
   .cards-container {
     flex-direction: row;
     justify-content: space-around;
+  }
+  .card-img {
+    width: 250px;
   }
 }
 
 /* laptop/desktop */
 @media (min-width: 1024px) {
   .hero-container {
-    height: 400px;
+    height: 500px;
     background-position: 0px top;
+  }
+  .card-img {
+    width: 300px;
   }
 }
