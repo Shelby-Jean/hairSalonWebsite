@@ -127,6 +127,7 @@
   .blog-container {
     flex-direction: row;
     width: 400px;
+  }
 }
 
 /* laptop/desktop */
